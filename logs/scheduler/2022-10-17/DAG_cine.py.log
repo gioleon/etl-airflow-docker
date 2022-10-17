@@ -1,0 +1,529 @@
+[2022-10-17T14:24:43.901+0000] {processor.py:156} INFO - Started process (PID=39) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:24:43.903+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:24:43.904+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:24:43.904+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:24:44.232+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:24:44.371+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:24:44.371+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:DAG_cine
+[2022-10-17T14:24:44.387+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:24:44.386+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:DAG_cine
+[2022-10-17T14:24:44.397+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:24:44.397+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:DAG_cine
+[2022-10-17T14:24:44.398+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:24:44.398+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:24:44.415+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:24:44.413+0000] {dag.py:2594} INFO - Creating ORM DAG for DAG_cine
+[2022-10-17T14:24:44.427+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:24:44.427+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:24:44.458+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.560 seconds
+[2022-10-17T14:24:47.635+0000] {processor.py:156} INFO - Started process (PID=51) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:24:47.638+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:24:47.640+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:24:47.639+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:24:48.032+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:24:48.045+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:24:48.044+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:24:48.066+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:24:48.066+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:24:48.098+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.467 seconds
+[2022-10-17T14:25:05.290+0000] {processor.py:156} INFO - Started process (PID=66) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:05.292+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:25:05.296+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:05.296+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:05.647+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:05.669+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:05.669+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:25:05.697+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:05.697+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:25:05.714+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.428 seconds
+[2022-10-17T14:25:09.054+0000] {processor.py:156} INFO - Started process (PID=81) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:09.059+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:25:09.062+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:09.061+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:09.585+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:09.607+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:09.607+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:25:09.640+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:09.640+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:25:09.672+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.625 seconds
+[2022-10-17T14:25:10.140+0000] {processor.py:156} INFO - Started process (PID=87) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:10.142+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:25:10.151+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:10.151+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:10.381+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:10.394+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:10.393+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:25:10.410+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:10.410+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:25:10.429+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.293 seconds
+[2022-10-17T14:25:21.280+0000] {processor.py:156} INFO - Started process (PID=99) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:21.282+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:25:21.283+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:21.283+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:21.600+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:21.631+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:21.631+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:25:21.656+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:21.656+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:25:21.676+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.400 seconds
+[2022-10-17T14:25:23.979+0000] {processor.py:156} INFO - Started process (PID=105) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:23.980+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:25:23.981+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:23.981+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:24.258+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:24.280+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:24.280+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:25:24.299+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:24.299+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:25:24.315+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.339 seconds
+[2022-10-17T14:25:54.706+0000] {processor.py:156} INFO - Started process (PID=138) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:54.710+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:25:54.712+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:54.712+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:55.007+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:25:55.040+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:55.040+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:25:55.064+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:25:55.064+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:25:55.086+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.383 seconds
+[2022-10-17T14:26:25.436+0000] {processor.py:156} INFO - Started process (PID=171) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:26:25.455+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:26:25.458+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:26:25.458+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:26:26.000+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:26:26.028+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:26:26.027+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:26:26.053+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:26:26.053+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:26:26.073+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.649 seconds
+[2022-10-17T14:26:43.313+0000] {processor.py:156} INFO - Started process (PID=185) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:26:43.316+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:26:43.317+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:26:43.317+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:26:43.536+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:26:43.554+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:26:43.554+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:26:43.569+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:26:43.568+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:26:43.583+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.274 seconds
+[2022-10-17T14:26:48.596+0000] {processor.py:156} INFO - Started process (PID=196) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:26:48.598+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:26:48.600+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:26:48.600+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:26:48.778+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:26:48.795+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:26:48.795+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:26:48.811+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:26:48.811+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:26:48.832+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.240 seconds
+[2022-10-17T14:27:02.990+0000] {processor.py:156} INFO - Started process (PID=210) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:27:02.993+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:27:02.995+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:27:02.995+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:27:03.170+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:27:03.186+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:27:03.185+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:27:03.202+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:27:03.202+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:27:03.216+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.230 seconds
+[2022-10-17T14:27:33.519+0000] {processor.py:156} INFO - Started process (PID=243) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:27:33.522+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:27:33.524+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:27:33.524+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:27:33.701+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:27:33.718+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:27:33.718+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:27:33.733+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:27:33.733+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:27:33.743+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.229 seconds
+[2022-10-17T14:28:04.042+0000] {processor.py:156} INFO - Started process (PID=275) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:04.045+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:28:04.046+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:04.046+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:04.211+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:04.232+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:04.231+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:28:04.247+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:04.247+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:28:04.258+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.219 seconds
+[2022-10-17T14:28:19.390+0000] {processor.py:156} INFO - Started process (PID=286) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:19.393+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:28:19.395+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:19.395+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:19.604+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:19.625+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:19.625+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:28:19.641+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:19.640+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:28:19.655+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.268 seconds
+[2022-10-17T14:28:20.402+0000] {processor.py:156} INFO - Started process (PID=288) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:20.410+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:28:20.411+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:20.411+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:20.601+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:20.619+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:20.618+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:28:20.634+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:20.634+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:28:20.646+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.247 seconds
+[2022-10-17T14:28:21.409+0000] {processor.py:156} INFO - Started process (PID=290) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:21.410+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:28:21.412+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:21.412+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:21.595+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:21.616+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:21.615+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:28:21.638+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:21.638+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:28:21.655+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.249 seconds
+[2022-10-17T14:28:22.700+0000] {processor.py:156} INFO - Started process (PID=292) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:22.702+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:28:22.704+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:22.703+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:22.898+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:22.917+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:22.917+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:28:22.947+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:22.946+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:28:22.964+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.268 seconds
+[2022-10-17T14:28:26.742+0000] {processor.py:156} INFO - Started process (PID=303) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:26.744+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:28:26.745+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:26.745+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:26.916+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:26.935+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:26.935+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:28:26.948+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:26.948+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:28:26.962+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.224 seconds
+[2022-10-17T14:28:57.358+0000] {processor.py:156} INFO - Started process (PID=336) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:57.360+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:28:57.361+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:57.361+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:57.577+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:28:57.599+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:57.598+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:28:57.616+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:28:57.616+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:28:57.631+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.276 seconds
+[2022-10-17T14:29:27.731+0000] {processor.py:156} INFO - Started process (PID=359) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:29:27.734+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:29:27.736+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:29:27.736+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:29:27.942+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:29:27.960+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:29:27.960+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:29:27.976+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:29:27.976+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:29:27.986+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.259 seconds
+[2022-10-17T14:29:58.352+0000] {processor.py:156} INFO - Started process (PID=392) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:29:58.354+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:29:58.356+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:29:58.356+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:29:58.563+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:29:58.581+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:29:58.580+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:29:58.597+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:29:58.596+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:29:58.609+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.262 seconds
+[2022-10-17T14:30:28.970+0000] {processor.py:156} INFO - Started process (PID=425) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:30:28.975+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:30:28.979+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:30:28.979+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:30:29.161+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:30:29.179+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:30:29.179+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:30:29.194+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:30:29.194+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:30:29.204+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.240 seconds
+[2022-10-17T14:30:59.610+0000] {processor.py:156} INFO - Started process (PID=459) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:30:59.613+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:30:59.615+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:30:59.615+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:30:59.879+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:30:59.907+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:30:59.907+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:30:59.927+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:30:59.927+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:30:59.945+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.339 seconds
+[2022-10-17T14:31:12.746+0000] {processor.py:156} INFO - Started process (PID=477) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:31:12.750+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:31:12.752+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:31:12.752+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:31:13.015+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:31:13.035+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:31:13.035+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:31:13.051+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:31:13.051+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:31:13.066+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.325 seconds
+[2022-10-17T14:31:43.384+0000] {processor.py:156} INFO - Started process (PID=510) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:31:43.386+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:31:43.387+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:31:43.386+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:31:43.543+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:31:43.562+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:31:43.562+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:31:43.576+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:31:43.576+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:31:43.586+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.203 seconds
+[2022-10-17T14:32:14.054+0000] {processor.py:156} INFO - Started process (PID=542) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:32:14.057+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:32:14.060+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:32:14.060+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:32:14.332+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:32:14.357+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:32:14.356+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:32:14.371+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:32:14.371+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:32:14.383+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.332 seconds
+[2022-10-17T14:32:15.056+0000] {processor.py:156} INFO - Started process (PID=545) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:32:15.057+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:32:15.058+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:32:15.058+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:32:15.375+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:32:15.401+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:32:15.400+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:32:15.419+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:32:15.419+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:32:15.437+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.384 seconds
+[2022-10-17T14:32:18.512+0000] {processor.py:156} INFO - Started process (PID=551) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:32:18.515+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:32:18.516+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:32:18.516+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:32:18.791+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:32:18.820+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:32:18.820+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:32:18.848+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:32:18.848+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:32:18.869+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.360 seconds
+[2022-10-17T14:32:49.214+0000] {processor.py:156} INFO - Started process (PID=584) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:32:49.216+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:32:49.218+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:32:49.218+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:32:49.455+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:32:49.488+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:32:49.488+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:32:49.506+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:32:49.506+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:32:49.519+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.308 seconds
+[2022-10-17T14:33:19.922+0000] {processor.py:156} INFO - Started process (PID=617) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:33:19.925+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:33:19.927+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:33:19.927+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:33:20.167+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:33:20.203+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:33:20.202+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:33:20.220+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:33:20.220+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:33:20.238+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.322 seconds
+[2022-10-17T14:33:50.502+0000] {processor.py:156} INFO - Started process (PID=653) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:33:50.504+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:33:50.506+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:33:50.506+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:33:50.704+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:33:50.721+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:33:50.721+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:33:50.735+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:33:50.735+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:33:50.748+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.249 seconds
+[2022-10-17T14:34:01.613+0000] {processor.py:156} INFO - Started process (PID=665) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:34:01.616+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:34:01.618+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:34:01.617+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:34:01.950+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:34:01.982+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:34:01.981+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:34:02.005+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:34:02.005+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:34:02.024+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.417 seconds
+[2022-10-17T14:34:05.116+0000] {processor.py:156} INFO - Started process (PID=671) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:34:05.117+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:34:05.119+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:34:05.119+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:34:05.413+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:34:05.438+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:34:05.438+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:34:05.460+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:34:05.460+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:34:05.475+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.361 seconds
+[2022-10-17T14:34:35.808+0000] {processor.py:156} INFO - Started process (PID=703) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:34:35.811+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:34:35.812+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:34:35.812+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:34:36.062+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:34:36.088+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:34:36.088+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:34:36.110+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:34:36.110+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:34:36.122+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.319 seconds
+[2022-10-17T14:35:06.569+0000] {processor.py:156} INFO - Started process (PID=737) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:35:06.571+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:35:06.572+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:35:06.572+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:35:06.866+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:35:06.891+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:35:06.891+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:35:06.912+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:35:06.912+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:35:06.928+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.362 seconds
+[2022-10-17T14:35:37.322+0000] {processor.py:156} INFO - Started process (PID=761) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:35:37.326+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:35:37.329+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:35:37.329+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:35:37.563+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:35:37.588+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:35:37.588+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:35:37.611+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:35:37.611+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:35:37.624+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.305 seconds
+[2022-10-17T14:36:07.491+0000] {processor.py:156} INFO - Started process (PID=797) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:07.492+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:36:07.493+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:07.493+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:07.664+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:07.682+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:07.681+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:36:07.697+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:07.697+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:36:07.711+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.223 seconds
+[2022-10-17T14:36:17.590+0000] {processor.py:156} INFO - Started process (PID=808) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:17.592+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:36:17.593+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:17.593+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:17.933+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:17.959+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:17.959+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:36:17.983+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:17.983+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:36:18.001+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.415 seconds
+[2022-10-17T14:36:20.063+0000] {processor.py:156} INFO - Started process (PID=814) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:20.064+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:36:20.066+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:20.065+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:20.271+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:20.289+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:20.289+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:36:20.306+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:20.306+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:36:20.323+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.264 seconds
+[2022-10-17T14:36:21.369+0000] {processor.py:156} INFO - Started process (PID=820) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:21.372+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:36:21.373+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:21.373+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:21.637+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:21.690+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:21.689+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:36:21.727+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:21.727+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:36:21.775+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.410 seconds
+[2022-10-17T14:36:34.460+0000] {processor.py:156} INFO - Started process (PID=844) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:34.461+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:36:34.463+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:34.463+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:34.843+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:34.887+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:34.886+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:36:34.912+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:34.912+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:36:34.947+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.490 seconds
+[2022-10-17T14:36:38.031+0000] {processor.py:156} INFO - Started process (PID=850) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:38.033+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:36:38.035+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:38.035+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:38.251+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:38.270+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:38.270+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:36:38.285+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:38.285+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:36:38.302+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.273 seconds
+[2022-10-17T14:36:38.611+0000] {processor.py:156} INFO - Started process (PID=856) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:38.613+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:36:38.615+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:38.615+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:38.836+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:38.856+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:38.856+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:36:38.872+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:38.872+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:36:38.890+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.280 seconds
+[2022-10-17T14:36:50.726+0000] {processor.py:156} INFO - Started process (PID=869) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:50.733+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:36:50.736+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:50.736+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:51.105+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:51.148+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:51.147+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:36:51.168+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:51.168+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:36:51.194+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.472 seconds
+[2022-10-17T14:36:54.279+0000] {processor.py:156} INFO - Started process (PID=875) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:54.282+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:36:54.284+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:54.283+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:54.606+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:36:54.636+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:54.636+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:36:54.659+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:36:54.659+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:36:54.684+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.410 seconds
+[2022-10-17T14:37:25.082+0000] {processor.py:156} INFO - Started process (PID=908) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:37:25.084+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:37:25.086+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:37:25.086+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:37:25.322+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:37:25.350+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:37:25.350+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:37:25.368+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:37:25.368+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:37:25.381+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.302 seconds
+[2022-10-17T14:37:55.719+0000] {processor.py:156} INFO - Started process (PID=940) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:37:55.721+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:37:55.723+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:37:55.723+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:37:55.980+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:37:56.009+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:37:56.009+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:37:56.029+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:37:56.029+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:37:56.042+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.328 seconds
+[2022-10-17T14:38:26.445+0000] {processor.py:156} INFO - Started process (PID=973) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:38:26.447+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:38:26.450+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:38:26.450+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:38:26.763+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:38:26.804+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:38:26.804+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:38:26.837+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:38:26.837+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:38:26.851+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.411 seconds
+[2022-10-17T14:38:56.967+0000] {processor.py:156} INFO - Started process (PID=1025) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:38:56.969+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:38:56.971+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:38:56.971+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:38:57.167+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:38:57.184+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:38:57.184+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:38:57.198+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:38:57.198+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:38:57.208+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.246 seconds
+[2022-10-17T14:39:10.927+0000] {processor.py:156} INFO - Started process (PID=1045) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:10.928+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:39:10.930+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:10.930+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:11.370+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:11.407+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:11.407+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:39:11.437+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:11.437+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:39:11.467+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.544 seconds
+[2022-10-17T14:39:13.529+0000] {processor.py:156} INFO - Started process (PID=1051) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:13.531+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:39:13.533+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:13.533+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:13.749+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:13.769+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:13.769+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:39:13.787+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:13.787+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:39:13.803+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.278 seconds
+[2022-10-17T14:39:14.880+0000] {processor.py:156} INFO - Started process (PID=1057) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:14.884+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:39:14.887+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:14.887+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:15.311+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:15.356+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:15.356+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:39:15.383+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:15.383+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:39:15.406+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.534 seconds
+[2022-10-17T14:39:24.530+0000] {processor.py:156} INFO - Started process (PID=1071) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:24.536+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:39:24.537+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:24.537+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:24.896+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:24.930+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:24.930+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:39:24.955+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:24.955+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:39:24.976+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.450 seconds
+[2022-10-17T14:39:27.040+0000] {processor.py:156} INFO - Started process (PID=1077) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:27.041+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:39:27.043+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:27.043+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:27.411+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:27.452+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:27.451+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:39:27.496+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:27.496+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:39:27.587+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.551 seconds
+[2022-10-17T14:39:28.671+0000] {processor.py:156} INFO - Started process (PID=1092) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:28.673+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:39:28.675+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:28.675+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:28.987+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:29.011+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:29.011+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:39:29.036+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:29.036+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:39:29.061+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.393 seconds
+[2022-10-17T14:39:38.653+0000] {processor.py:156} INFO - Started process (PID=1105) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:38.656+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:39:38.659+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:38.658+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:39.118+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:39.178+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:39.177+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:39:39.248+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:39.248+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:39:39.311+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.666 seconds
+[2022-10-17T14:39:42.181+0000] {processor.py:156} INFO - Started process (PID=1113) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:42.182+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:39:42.183+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:42.183+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:42.458+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:39:42.488+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:42.487+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:39:42.505+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:39:42.505+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:39:42.524+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.346 seconds
+[2022-10-17T14:40:12.964+0000] {processor.py:156} INFO - Started process (PID=1159) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:40:12.966+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:40:12.968+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:40:12.968+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:40:13.244+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:40:13.276+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:40:13.276+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:40:13.296+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:40:13.295+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:40:13.307+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.347 seconds
+[2022-10-17T14:40:43.943+0000] {processor.py:156} INFO - Started process (PID=1187) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:40:43.946+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:40:43.949+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:40:43.949+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:40:44.151+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:40:44.185+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:40:44.185+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:40:44.206+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:40:44.206+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:40:44.226+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.292 seconds
+[2022-10-17T14:41:25.879+0000] {processor.py:156} INFO - Started process (PID=1232) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:41:25.882+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:41:25.883+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:41:25.883+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:41:26.103+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:41:26.138+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:41:26.138+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:41:26.163+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:41:26.163+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:41:26.201+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.324 seconds
+[2022-10-17T14:41:33.966+0000] {processor.py:156} INFO - Started process (PID=1245) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:41:33.968+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:41:33.969+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:41:33.969+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:41:34.295+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:41:34.318+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:41:34.318+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:41:34.339+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:41:34.339+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:41:34.364+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.402 seconds
+[2022-10-17T14:41:36.440+0000] {processor.py:156} INFO - Started process (PID=1251) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:41:36.442+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:41:36.444+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:41:36.444+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:41:36.670+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:41:36.689+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:41:36.689+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:41:36.707+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:41:36.707+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:41:36.724+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.286 seconds
+[2022-10-17T14:42:10.573+0000] {processor.py:156} INFO - Started process (PID=1286) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:10.578+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:42:10.580+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:10.580+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:10.836+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:10.858+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:10.857+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:42:10.876+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:10.876+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:42:10.898+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.327 seconds
+[2022-10-17T14:42:28.768+0000] {processor.py:156} INFO - Started process (PID=1308) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:28.773+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:42:28.777+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:28.776+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:29.152+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:29.215+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:29.214+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:42:29.253+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:29.253+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:42:29.270+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.515 seconds
+[2022-10-17T14:42:31.324+0000] {processor.py:156} INFO - Started process (PID=1314) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:31.327+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:42:31.328+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:31.328+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:31.564+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:31.584+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:31.583+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:42:31.602+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:31.602+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:42:31.622+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.301 seconds
+[2022-10-17T14:42:32.682+0000] {processor.py:156} INFO - Started process (PID=1327) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:32.686+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:42:32.692+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:32.692+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:33.081+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:33.128+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:33.127+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:42:33.170+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:33.170+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:42:33.208+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.529 seconds
+[2022-10-17T14:42:42.707+0000] {processor.py:156} INFO - Started process (PID=1335) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:42.710+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:42:42.712+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:42.712+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:43.067+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:43.099+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:43.099+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:42:43.125+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:43.125+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:42:43.149+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.445 seconds
+[2022-10-17T14:42:45.212+0000] {processor.py:156} INFO - Started process (PID=1350) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:45.214+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:42:45.217+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:45.216+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:45.671+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:45.691+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:45.691+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:42:45.709+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:45.709+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:42:45.727+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.521 seconds
+[2022-10-17T14:42:46.059+0000] {processor.py:156} INFO - Started process (PID=1356) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:46.060+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:42:46.062+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:46.061+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:46.275+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:46.295+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:46.295+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:42:46.313+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:46.313+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:42:46.331+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.275 seconds
+[2022-10-17T14:42:56.172+0000] {processor.py:156} INFO - Started process (PID=1369) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:56.176+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:42:56.178+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:56.178+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:56.568+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:56.627+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:56.627+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:42:56.671+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:56.671+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:42:56.722+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.556 seconds
+[2022-10-17T14:42:58.823+0000] {processor.py:156} INFO - Started process (PID=1375) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:58.827+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:42:58.829+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:58.829+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:59.116+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:59.148+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:59.147+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:42:59.166+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:59.166+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:42:59.182+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.361 seconds
+[2022-10-17T14:42:59.506+0000] {processor.py:156} INFO - Started process (PID=1381) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:59.508+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:42:59.509+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:59.508+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:59.756+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:42:59.779+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:59.779+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:42:59.802+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:42:59.802+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:42:59.825+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.321 seconds
+[2022-10-17T14:43:30.208+0000] {processor.py:156} INFO - Started process (PID=1415) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:43:30.210+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:43:30.211+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:43:30.211+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:43:30.394+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:43:30.411+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:43:30.411+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:43:30.425+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:43:30.425+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:43:30.435+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.229 seconds
+[2022-10-17T14:44:00.700+0000] {processor.py:156} INFO - Started process (PID=1446) to work on /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:44:00.702+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_cine.py for tasks to queue
+[2022-10-17T14:44:00.704+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:44:00.704+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:44:00.962+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_cine']) retrieved from /opt/airflow/dags/DAG_cine.py
+[2022-10-17T14:44:01.004+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:44:01.004+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:44:01.024+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:44:01.024+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_cine to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:44:01.037+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_cine.py took 0.341 seconds

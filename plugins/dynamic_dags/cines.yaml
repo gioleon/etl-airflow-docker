@@ -1,4 +1,4 @@
-dag_id: 'DAG_cine'
+dag_id: 'DAG_cines'
 
 columns_to_rename: {
     'cod_localidad': 'localidad_id', 'id_provincia': 'provincia_id',

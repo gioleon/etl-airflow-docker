@@ -1,0 +1,24 @@
+[2022-10-17T14:42:31.170+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DAG_museo.transform_data manual__2022-10-17T14:42:27.624079+00:00 [queued]>
+[2022-10-17T14:42:31.177+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DAG_museo.transform_data manual__2022-10-17T14:42:27.624079+00:00 [queued]>
+[2022-10-17T14:42:31.178+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-17T14:42:31.179+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-10-17T14:42:31.180+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-17T14:42:31.189+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): transform_data> on 2022-10-17 14:42:27.624079+00:00
+[2022-10-17T14:42:31.193+0000] {standard_task_runner.py:54} INFO - Started process 1054 to run task
+[2022-10-17T14:42:31.195+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'DAG_museo', 'transform_data', 'manual__2022-10-17T14:42:27.624079+00:00', '--job-id', '192', '--raw', '--subdir', 'DAGS_FOLDER/DAG_museo.py', '--cfg-path', '/tmp/tmpemkqq2e6']
+[2022-10-17T14:42:31.197+0000] {standard_task_runner.py:83} INFO - Job 192: Subtask transform_data
+[2022-10-17T14:42:31.198+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/DAG_museo.py
+[2022-10-17T14:42:31.484+0000] {task_command.py:384} INFO - Running <TaskInstance: DAG_museo.transform_data manual__2022-10-17T14:42:27.624079+00:00 [running]> on host 067073ba6286
+[2022-10-17T14:42:31.529+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=DAG_museo
+AIRFLOW_CTX_TASK_ID=transform_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-17T14:42:27.624079+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-17T14:42:27.624079+00:00
+[2022-10-17T14:42:31.591+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-10-17T14:42:31.599+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=DAG_museo, task_id=transform_data, execution_date=20221017T144227, start_date=20221017T144231, end_date=20221017T144231
+[2022-10-17T14:42:31.650+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-17T14:42:31.668+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

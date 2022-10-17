@@ -1,9 +1,10 @@
-dag_id: "DAG_biblioteca"
+dag_id: "DAG_bibliotecas"
 
 columns_to_rename: {
     "departamento_nombre": "departamento",
     "provincia_nombre": "provincia", "localidad_nombre": "localidad",
-    'tipo_gestion': 'tipo_de_gestion', 'domicilio': 'direccion'
+    'tipo_gestion': 'tipo_de_gestion', 'domicilio': 'direccion', 
+    'actualizacion': 'año_actualizacion'
 }
 
 columns: [
@@ -14,7 +15,7 @@ columns: [
     'localidad', 'localidad_id',
     'latitud', 'longitud',
     'tipo_latitud_longitud', 'tipo_de_gestion',
-    'actualizacion'
+    'año_actualizacion'
 ]
 
 string_columns: [

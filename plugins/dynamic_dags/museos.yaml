@@ -1,9 +1,9 @@
-dag_id: 'DAG_museo'
+dag_id: 'DAG_museos'
 
 columns_to_rename: {
     'cod_loc': 'localidad_id', 'idprovincia': 'provincia_id',
     'iddepartamento': 'departamento_id', 'tipolatitudlongitud': 'tipo_latitud_longitud',
-    'jurisdiccion': 'tipo_de_gestion'
+    'jurisdiccion': 'tipo_de_gestion', 'actualizacion': 'año_actualizacion'
 }
 
 columns: [
@@ -14,7 +14,7 @@ columns: [
     'localidad', 'localidad_id',
     'latitud', 'longitud',
     'tipo_latitud_longitud', 'año_inauguracion',
-    'actualizacion', 'tipo_de_gestion',
+    'año_actualizacion', 'tipo_de_gestion',
 ]
 
 string_columns: [

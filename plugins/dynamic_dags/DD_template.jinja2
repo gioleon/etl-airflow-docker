@@ -181,22 +181,23 @@ def clean_columns(dataframe: pd.DataFrame) -> pd.DataFrame:
             np.nan
         )
 
-    # Transform año_inaguracion
+    # Transform año_inauguracion
     if 'año_inauguracion' in dataframe.columns:
         dataframe['año_inauguracion'] = list(map(
             lambda x: x
             if x != 0
             else
-            np.nan
+            np.nan,
+            dataframe['año_inauguracion'].values
         ))
 
     # Impute missing values in actualizacion
-    dataframe['actualizacion'] = list(map(
+    dataframe['año_actualizacion'] = list(map(
         lambda x: x
         if len(str(x)) == 4
         else
         np.nan,
-        dataframe['actualizacion'].values
+        dataframe['año_actualizacion'].values
     ))
 
     # Change data types.
@@ -300,7 +301,7 @@ with DAG(
     default_args={},
     start_date=datetime(2022, 10, 11),
     schedule_interval='@monthly',
-    catchup=False
+    catchup=True
 ) as dag:
 
     task_get_data = PythonOperator(

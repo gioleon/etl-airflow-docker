@@ -1,0 +1,151 @@
+[2022-10-17T14:47:21.397+0000] {processor.py:156} INFO - Started process (PID=35) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:47:21.400+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T14:47:21.402+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:47:21.402+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:47:22.291+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:47:22.461+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:47:22.461+0000] {manager.py:508} INFO - Created Permission View: can edit on DAG:DAG_bibliotecas
+[2022-10-17T14:47:22.481+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:47:22.480+0000] {manager.py:508} INFO - Created Permission View: can delete on DAG:DAG_bibliotecas
+[2022-10-17T14:47:22.489+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:47:22.489+0000] {manager.py:508} INFO - Created Permission View: can read on DAG:DAG_bibliotecas
+[2022-10-17T14:47:22.492+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:47:22.491+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:47:22.503+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:47:22.502+0000] {dag.py:2594} INFO - Creating ORM DAG for DAG_bibliotecas
+[2022-10-17T14:47:22.516+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:47:22.516+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:47:22.544+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 1.151 seconds
+[2022-10-17T14:47:25.849+0000] {processor.py:156} INFO - Started process (PID=52) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:47:25.852+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T14:47:25.856+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:47:25.856+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:47:26.692+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:47:26.734+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:47:26.733+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:47:26.776+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:47:26.776+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:47:26.807+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.960 seconds
+[2022-10-17T14:47:57.237+0000] {processor.py:156} INFO - Started process (PID=78) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:47:57.240+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T14:47:57.241+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:47:57.241+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:47:57.425+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:47:57.449+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:47:57.448+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:47:57.469+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:47:57.467+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:47:57.480+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.248 seconds
+[2022-10-17T14:48:22.140+0000] {processor.py:156} INFO - Started process (PID=111) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:48:22.141+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T14:48:22.142+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:48:22.142+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:48:22.339+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:48:22.360+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:48:22.360+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:48:22.376+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:48:22.376+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:48:22.391+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.253 seconds
+[2022-10-17T14:48:52.829+0000] {processor.py:156} INFO - Started process (PID=135) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:48:52.831+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T14:48:52.832+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:48:52.832+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:48:53.026+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T14:48:53.048+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:48:53.047+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T14:48:53.066+0000] {logging_mixin.py:117} INFO - [2022-10-17T14:48:53.066+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T14:48:53.078+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.251 seconds
+[2022-10-17T15:22:27.138+0000] {processor.py:156} INFO - Started process (PID=39) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:22:27.140+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:22:27.142+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:22:27.142+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:22:27.470+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:22:27.543+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:22:27.542+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:22:27.578+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:22:27.578+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:22:27.600+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.465 seconds
+[2022-10-17T15:22:30.230+0000] {processor.py:156} INFO - Started process (PID=50) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:22:30.233+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:22:30.237+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:22:30.237+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:22:31.107+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:22:31.165+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:22:31.164+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:22:31.224+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:22:31.224+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:22:31.275+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 1.063 seconds
+[2022-10-17T15:23:01.525+0000] {processor.py:156} INFO - Started process (PID=75) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:23:01.527+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:23:01.530+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:23:01.530+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:23:01.781+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:23:01.814+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:23:01.814+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:23:01.834+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:23:01.834+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:23:01.847+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.324 seconds
+[2022-10-17T15:23:26.507+0000] {processor.py:156} INFO - Started process (PID=111) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:23:26.509+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:23:26.510+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:23:26.510+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:23:26.684+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:23:26.700+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:23:26.700+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:23:26.713+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:23:26.713+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:23:26.726+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.222 seconds
+[2022-10-17T15:23:57.154+0000] {processor.py:156} INFO - Started process (PID=135) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:23:57.156+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:23:57.157+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:23:57.157+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:23:57.317+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:23:57.338+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:23:57.338+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:23:57.353+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:23:57.353+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:23:57.367+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.216 seconds
+[2022-10-17T15:24:27.744+0000] {processor.py:156} INFO - Started process (PID=168) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:24:27.746+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:24:27.747+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:24:27.747+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:24:27.908+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:24:27.925+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:24:27.924+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:24:27.938+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:24:27.938+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:24:27.949+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.207 seconds
+[2022-10-17T15:24:58.394+0000] {processor.py:156} INFO - Started process (PID=201) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:24:58.396+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:24:58.397+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:24:58.396+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:24:58.559+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:24:58.576+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:24:58.576+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:24:58.592+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:24:58.592+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:24:58.602+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.210 seconds
+[2022-10-17T15:25:29.045+0000] {processor.py:156} INFO - Started process (PID=234) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:25:29.047+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:25:29.048+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:25:29.048+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:25:29.217+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:25:29.233+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:25:29.233+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:25:29.248+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:25:29.248+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:25:29.258+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.216 seconds
+[2022-10-17T15:25:59.696+0000] {processor.py:156} INFO - Started process (PID=267) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:25:59.698+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:25:59.699+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:25:59.698+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:25:59.886+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:25:59.904+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:25:59.904+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:25:59.919+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:25:59.919+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:25:59.929+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.235 seconds
+[2022-10-17T15:26:30.404+0000] {processor.py:156} INFO - Started process (PID=299) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:26:30.405+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:26:30.406+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:26:30.406+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:26:30.563+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:26:30.580+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:26:30.580+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:26:30.601+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:26:30.601+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:26:30.625+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.224 seconds
+[2022-10-17T15:27:00.967+0000] {processor.py:156} INFO - Started process (PID=332) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:27:00.968+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:27:00.970+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:27:00.970+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:27:01.130+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:27:01.149+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:27:01.149+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:27:01.167+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:27:01.167+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:27:01.179+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.214 seconds
+[2022-10-17T15:27:31.619+0000] {processor.py:156} INFO - Started process (PID=356) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:27:31.620+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:27:31.621+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:27:31.621+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:27:31.808+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:27:31.839+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:27:31.838+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:27:31.856+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:27:31.856+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:27:31.871+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.254 seconds
+[2022-10-17T15:28:02.295+0000] {processor.py:156} INFO - Started process (PID=389) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:28:02.297+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:28:02.298+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:28:02.298+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:28:02.452+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:28:02.470+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:28:02.470+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:28:02.485+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:28:02.485+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:28:02.497+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.205 seconds
+[2022-10-17T15:29:19.153+0000] {processor.py:156} INFO - Started process (PID=35) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:29:19.157+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:29:19.160+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:29:19.159+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:29:20.069+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:29:20.146+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:29:20.146+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:29:20.179+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:29:20.179+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:29:20.213+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 1.064 seconds
+[2022-10-17T15:29:24.471+0000] {processor.py:156} INFO - Started process (PID=54) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:29:24.475+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:29:24.487+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:29:24.487+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:29:25.057+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:29:25.089+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:29:25.088+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:29:25.126+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:29:25.125+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:29:25.164+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.702 seconds
+[2022-10-17T15:29:55.661+0000] {processor.py:156} INFO - Started process (PID=78) to work on /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:29:55.666+0000] {processor.py:758} INFO - Processing file /opt/airflow/dags/DAG_bibliotecas.py for tasks to queue
+[2022-10-17T15:29:55.669+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:29:55.669+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:29:55.854+0000] {processor.py:768} INFO - DAG(s) dict_keys(['DAG_bibliotecas']) retrieved from /opt/airflow/dags/DAG_bibliotecas.py
+[2022-10-17T15:29:55.871+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:29:55.871+0000] {dag.py:2573} INFO - Sync 1 DAGs
+[2022-10-17T15:29:55.886+0000] {logging_mixin.py:117} INFO - [2022-10-17T15:29:55.886+0000] {dag.py:3328} INFO - Setting next_dagrun for DAG_bibliotecas to 2022-11-01T00:00:00+00:00, run_after=2022-12-01T00:00:00+00:00
+[2022-10-17T15:29:55.896+0000] {processor.py:178} INFO - Processing /opt/airflow/dags/DAG_bibliotecas.py took 0.239 seconds

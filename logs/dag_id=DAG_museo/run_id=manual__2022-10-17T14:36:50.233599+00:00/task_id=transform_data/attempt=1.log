@@ -1,0 +1,35 @@
+[2022-10-17T14:36:53.932+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DAG_museo.transform_data manual__2022-10-17T14:36:50.233599+00:00 [queued]>
+[2022-10-17T14:36:53.939+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DAG_museo.transform_data manual__2022-10-17T14:36:50.233599+00:00 [queued]>
+[2022-10-17T14:36:53.939+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-17T14:36:53.940+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-10-17T14:36:53.941+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-17T14:36:53.949+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): transform_data> on 2022-10-17 14:36:50.233599+00:00
+[2022-10-17T14:36:53.954+0000] {standard_task_runner.py:54} INFO - Started process 732 to run task
+[2022-10-17T14:36:53.956+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'DAG_museo', 'transform_data', 'manual__2022-10-17T14:36:50.233599+00:00', '--job-id', '180', '--raw', '--subdir', 'DAGS_FOLDER/DAG_museo.py', '--cfg-path', '/tmp/tmp3c77fcws']
+[2022-10-17T14:36:53.957+0000] {standard_task_runner.py:83} INFO - Job 180: Subtask transform_data
+[2022-10-17T14:36:53.959+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/DAG_museo.py
+[2022-10-17T14:36:54.202+0000] {task_command.py:384} INFO - Running <TaskInstance: DAG_museo.transform_data manual__2022-10-17T14:36:50.233599+00:00 [running]> on host 067073ba6286
+[2022-10-17T14:36:54.242+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=DAG_museo
+AIRFLOW_CTX_TASK_ID=transform_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-17T14:36:50.233599+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-17T14:36:50.233599+00:00
+[2022-10-17T14:36:54.296+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/DAG_museo.py", line 241, in transform_data
+    last = clean_columns(last)
+  File "/opt/airflow/dags/DAG_museo.py", line 187, in clean_columns
+    lambda x: x
+TypeError: map() must have at least two arguments.
+[2022-10-17T14:36:54.310+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=DAG_museo, task_id=transform_data, execution_date=20221017T143650, start_date=20221017T143653, end_date=20221017T143654
+[2022-10-17T14:36:54.320+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 180 for task transform_data (map() must have at least two arguments.; 732)
+[2022-10-17T14:36:54.336+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-10-17T14:36:54.363+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

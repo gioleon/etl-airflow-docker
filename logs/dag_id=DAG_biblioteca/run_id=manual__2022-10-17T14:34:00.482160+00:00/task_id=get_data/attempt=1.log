@@ -1,0 +1,24 @@
+[2022-10-17T14:34:01.560+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DAG_biblioteca.get_data manual__2022-10-17T14:34:00.482160+00:00 [queued]>
+[2022-10-17T14:34:01.569+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DAG_biblioteca.get_data manual__2022-10-17T14:34:00.482160+00:00 [queued]>
+[2022-10-17T14:34:01.577+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-17T14:34:01.578+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-10-17T14:34:01.579+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-17T14:34:01.593+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): get_data> on 2022-10-17 14:34:00.482160+00:00
+[2022-10-17T14:34:01.598+0000] {standard_task_runner.py:54} INFO - Started process 567 to run task
+[2022-10-17T14:34:01.607+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'DAG_biblioteca', 'get_data', 'manual__2022-10-17T14:34:00.482160+00:00', '--job-id', '171', '--raw', '--subdir', 'DAGS_FOLDER/DAG_biblioteca.py', '--cfg-path', '/tmp/tmpgy_mwmzj']
+[2022-10-17T14:34:01.610+0000] {standard_task_runner.py:83} INFO - Job 171: Subtask get_data
+[2022-10-17T14:34:01.612+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/DAG_biblioteca.py
+[2022-10-17T14:34:01.996+0000] {task_command.py:384} INFO - Running <TaskInstance: DAG_biblioteca.get_data manual__2022-10-17T14:34:00.482160+00:00 [running]> on host 067073ba6286
+[2022-10-17T14:34:02.062+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=DAG_biblioteca
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-17T14:34:00.482160+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-17T14:34:00.482160+00:00
+[2022-10-17T14:34:03.698+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-10-17T14:34:03.709+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=DAG_biblioteca, task_id=get_data, execution_date=20221017T143400, start_date=20221017T143401, end_date=20221017T143403
+[2022-10-17T14:34:03.744+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-17T14:34:03.764+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

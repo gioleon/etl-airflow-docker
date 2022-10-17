@@ -1,0 +1,24 @@
+[2022-10-17T14:39:14.404+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DAG_biblioteca.load_data manual__2022-10-17T14:39:09.810365+00:00 [queued]>
+[2022-10-17T14:39:14.411+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DAG_biblioteca.load_data manual__2022-10-17T14:39:09.810365+00:00 [queued]>
+[2022-10-17T14:39:14.414+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-17T14:39:14.415+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-10-17T14:39:14.415+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-17T14:39:14.424+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): load_data> on 2022-10-17 14:39:09.810365+00:00
+[2022-10-17T14:39:14.428+0000] {standard_task_runner.py:54} INFO - Started process 859 to run task
+[2022-10-17T14:39:14.430+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'DAG_biblioteca', 'load_data', 'manual__2022-10-17T14:39:09.810365+00:00', '--job-id', '183', '--raw', '--subdir', 'DAGS_FOLDER/DAG_biblioteca.py', '--cfg-path', '/tmp/tmpbe831c2_']
+[2022-10-17T14:39:14.431+0000] {standard_task_runner.py:83} INFO - Job 183: Subtask load_data
+[2022-10-17T14:39:14.433+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/DAG_biblioteca.py
+[2022-10-17T14:39:14.639+0000] {task_command.py:384} INFO - Running <TaskInstance: DAG_biblioteca.load_data manual__2022-10-17T14:39:09.810365+00:00 [running]> on host 067073ba6286
+[2022-10-17T14:39:14.678+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=DAG_biblioteca
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-17T14:39:09.810365+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-17T14:39:09.810365+00:00
+[2022-10-17T14:39:16.797+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-10-17T14:39:16.819+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=DAG_biblioteca, task_id=load_data, execution_date=20221017T143909, start_date=20221017T143914, end_date=20221017T143916
+[2022-10-17T14:39:16.921+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-10-17T14:39:16.969+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
