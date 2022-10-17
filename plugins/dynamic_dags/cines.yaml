@@ -1,0 +1,30 @@
+dag_id: 'DAG_cine'
+
+columns_to_rename: {
+    'cod_localidad': 'localidad_id', 'id_provincia': 'provincia_id',
+    'id_departamento': 'departamento_id'
+}
+
+columns: [
+    'nombre',
+    'categoria', 'direccion', 
+    'departamento', 'departamento_id',
+    'provincia', 'provincia_id',
+    'localidad', 'localidad_id',
+    'latitud', 'longitud',
+    'tipo_latitud_longitud', 'pantallas',
+    'butacas', 'espacio_incaa',
+    'tipo_de_gestion', 'año_actualizacion'
+]
+
+string_columns: [
+    'nombre', 'categoria',
+    'provincia', 'localidad',
+    'tipo_latitud_longitud', 'tipo_de_gestion',
+    'tipo_de_gestion', 'direccion',
+    'departamento', 'espacio_incaa'
+]
+
+place: cines
+
+url: https://datos.cultura.gob.ar/dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/f7a8edb8-9208-41b0-8f19-d72811dcea97/download/salas_cine.csv

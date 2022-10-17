@@ -1,0 +1,22 @@
+[2022-10-14T13:25:26.224+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DAG_cines.get_data manual__2022-10-14T13:25:18.936011+00:00 [queued]>
+[2022-10-14T13:25:26.256+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DAG_cines.get_data manual__2022-10-14T13:25:18.936011+00:00 [queued]>
+[2022-10-14T13:25:26.260+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-14T13:25:26.262+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-10-14T13:25:26.264+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-14T13:25:26.293+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): get_data> on 2022-10-14 13:25:18.936011+00:00
+[2022-10-14T13:25:26.308+0000] {standard_task_runner.py:54} INFO - Started process 78 to run task
+[2022-10-14T13:25:26.320+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'DAG_cines', 'get_data', 'manual__2022-10-14T13:25:18.936011+00:00', '--job-id', '90', '--raw', '--subdir', 'DAGS_FOLDER/DD_template.py', '--cfg-path', '/tmp/tmpk4seblrg']
+[2022-10-14T13:25:26.323+0000] {standard_task_runner.py:83} INFO - Job 90: Subtask get_data
+[2022-10-14T13:25:26.331+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/DD_template.py
+[2022-10-14T13:25:27.807+0000] {task_command.py:384} INFO - Running <TaskInstance: DAG_cines.get_data manual__2022-10-14T13:25:18.936011+00:00 [running]> on host 51be23f3a6ba
+[2022-10-14T13:25:27.955+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=DAG_cines
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-14T13:25:18.936011+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-14T13:25:18.936011+00:00
+[2022-10-14T13:25:33.971+0000] {local_task_job.py:164} INFO - Task exited with return code Negsignal.SIGKILL
+[2022-10-14T13:25:34.046+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

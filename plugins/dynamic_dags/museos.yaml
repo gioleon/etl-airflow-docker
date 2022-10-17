@@ -1,0 +1,29 @@
+dag_id: 'DAG_museo'
+
+columns_to_rename: {
+    'cod_loc': 'localidad_id', 'idprovincia': 'provincia_id',
+    'iddepartamento': 'departamento_id', 'tipolatitudlongitud': 'tipo_latitud_longitud',
+    'jurisdiccion': 'tipo_de_gestion'
+}
+
+columns: [
+    'nombre', 'telefono',
+    'mail', 'categoria',  'direccion',
+    'departamento_id',
+    'provincia', 'provincia_id',
+    'localidad', 'localidad_id',
+    'latitud', 'longitud',
+    'tipo_latitud_longitud', 'año_inauguracion',
+    'actualizacion', 'tipo_de_gestion',
+]
+
+string_columns: [
+    'nombre', 'categoria',
+    'provincia', 'localidad',
+    'tipo_latitud_longitud', 'tipo_de_gestion',
+    'tipo_de_gestion', 'direccion'
+]
+
+place: museos
+
+url: https://datos.cultura.gob.ar/dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museos_datosabiertos.csv

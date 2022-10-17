@@ -1,0 +1,34 @@
+[2022-10-14T13:06:07.831+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DAG_cines.get_data manual__2022-10-14T13:05:58.653649+00:00 [queued]>
+[2022-10-14T13:06:07.853+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: DAG_cines.get_data manual__2022-10-14T13:05:58.653649+00:00 [queued]>
+[2022-10-14T13:06:07.854+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-14T13:06:07.855+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2022-10-14T13:06:07.856+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-10-14T13:06:07.880+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): get_data> on 2022-10-14 13:05:58.653649+00:00
+[2022-10-14T13:06:07.889+0000] {standard_task_runner.py:54} INFO - Started process 95 to run task
+[2022-10-14T13:06:07.896+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'DAG_cines', 'get_data', 'manual__2022-10-14T13:05:58.653649+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/DD_template.py', '--cfg-path', '/tmp/tmpyry1blkg']
+[2022-10-14T13:06:07.899+0000] {standard_task_runner.py:83} INFO - Job 84: Subtask get_data
+[2022-10-14T13:06:07.905+0000] {dagbag.py:525} INFO - Filling up the DagBag from /opt/***/dags/DD_template.py
+[2022-10-14T13:06:09.484+0000] {task_command.py:384} INFO - Running <TaskInstance: DAG_cines.get_data manual__2022-10-14T13:05:58.653649+00:00 [running]> on host 5e72de07c0da
+[2022-10-14T13:06:10.071+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=DAG_cines
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-10-14T13:05:58.653649+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-10-14T13:05:58.653649+00:00
+[2022-10-14T13:06:13.764+0000] {logging_mixin.py:117} INFO - https://datos.cultura.gob.ar/dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/f7a8edb8-9208-41b0-8f19-d72811dcea97/download/salas_cine.csv
+[2022-10-14T13:06:13.771+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/DD_template.py", line 76, in get_data
+    raise 'f'
+TypeError: exceptions must derive from BaseException
+[2022-10-14T13:06:13.812+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=DAG_cines, task_id=get_data, execution_date=20221014T130558, start_date=20221014T130607, end_date=20221014T130613
+[2022-10-14T13:06:13.860+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 84 for task get_data (exceptions must derive from BaseException; 95)
+[2022-10-14T13:06:13.953+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-10-14T13:06:14.010+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

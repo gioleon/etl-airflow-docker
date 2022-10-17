@@ -1,0 +1,30 @@
+dag_id: "DAG_biblioteca"
+
+columns_to_rename: {
+    "departamento_nombre": "departamento",
+    "provincia_nombre": "provincia", "localidad_nombre": "localidad",
+    'tipo_gestion': 'tipo_de_gestion', 'domicilio': 'direccion'
+}
+
+columns: [
+    'nombre', 'telefono',
+    'mail', 'categoria', 'direccion',
+    'departamento', 'departamento_id',
+    'provincia', 'provincia_id',
+    'localidad', 'localidad_id',
+    'latitud', 'longitud',
+    'tipo_latitud_longitud', 'tipo_de_gestion',
+    'actualizacion'
+]
+
+string_columns: [
+    'nombre', 'categoria',
+    'provincia', 'localidad',
+    'tipo_latitud_longitud', 'tipo_de_gestion',
+    'tipo_de_gestion', 'direccion',
+    'departamento'
+]
+
+place: bibliotecas
+
+url: https://datos.cultura.gob.ar/dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/ee6ec36e-e4f2-42a0-adb8-525f0cb93c87/download/libreria.csv
